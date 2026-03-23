@@ -1,0 +1,126 @@
+🟢 入門
+	•	UVA 11462 – Age Sort✅
+👉 純 sorting
+
+⸻
+
+🟡 中等
+	•	UVA 299 – Train Swapping✅
+👉 🔥 inversion（超經典！！）
+
+⸻
+
+🟡 中等
+	•	UVA 10810 – Ultra-QuickSort
+👉 inversion（進階版）
+
+⸻
+
+🟡 中等
+	•	UVA 120 – Stacks of Flapjacks
+👉 sorting + simulation
+
+⸻
+
+🔵 類似 LeetCode
+	•	Largest Number（你剛寫的🔥）
+	•	Sort Colors（荷蘭旗問題）
+
+
+/////////////////////////////////////
+🟢 必練 1️⃣：Inversion（超重要🔥）
+
+⭐ UVA 299 – Train Swapping✅
+
+👉 一定要會
+	•	題意：算最少交換次數
+	•	本質：👉 inversion 數量
+	•	難度：⭐（小考最愛）
+
+⸻
+
+⭐ UVA 10810 – Ultra-QuickSort
+
+👉 進階版
+	•	n 很大
+	•	要用 merge sort（O(n log n)）
+	•	難度：⭐⭐⭐（競賽）
+
+⸻
+
+🟡 必練 2️⃣：Arrays + Simulation
+
+⭐ UVA 10038 – Jolly Jumpers
+
+👉 你剛做的
+	•	練：array + boolean
+	•	難度：⭐
+
+⸻
+
+⭐ UVA 10050 – Hartals
+
+👉 超經典
+	•	練：simulation + array
+	•	注意：星期五六要跳過
+	•	難度：⭐⭐
+
+⸻
+
+⭐ UVA 340 – Master-Mind Hints
+
+👉 你剛 debug 的
+	•	練：count array + simulation
+	•	難度：⭐⭐⭐
+
+⸻
+
+🔵 必練 3️⃣：Sorting + cmp
+
+（UVA 比較少像 LeetCode 179，但有類似概念）
+
+⸻
+
+⭐ UVA 11462 – Age Sort
+
+👉 超簡單排序
+	•	練：sort / counting sort
+	•	難度：⭐
+
+⸻
+
+⭐ UVA 10107 – What is the Median
+
+👉 邊輸入邊排序
+	•	練：排序 + median
+	•	難度：⭐⭐
+
+⸻
+
+🟣 額外補強（很容易考）
+
+⸻
+
+⭐ UVA 11340 – Newspaper
+
+👉 練計數（像 MasterMind）
+
+⸻
+
+⭐ UVA 591 – Box of Bricks
+
+👉 超簡單但常考
+
+⭐ 推薦順序
+1️⃣ UVA 10038（Jolly）
+2️⃣ UVA 10050（Hartals）
+3️⃣ UVA 299（Train Swapping）🔥
+4️⃣ UVA 340（MasterMind）
+5️⃣ UVA 11462（Sort）
+
+⭐ 考前重點
+✔ Jolly → 差值 + boolean
+✔ Hartals → 模擬 + 排除週末
+✔ Train Swapping → inversion🔥
+✔ MasterMind → 計數 + 判斷
+✔ Sorting → sort + cmp
