@@ -1,0 +1,16 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/linyuxin/11402_CI002/Practice/week_11_Binary/Before-Class_Exercises/output/UVa_12347'
+relocations:
+  - { offset: 0x3F, size: 0x8, addend: 0x0, symName: _num, symObjAddr: 0x13B84, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offset: 0x3A6C, size: 0x8, addend: 0x0, symName: __ZNSt3__14endlB8ne180100IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_, symObjAddr: 0x124, symBinAddr: 0x100003C70, symSize: 0x58 }
+  - { offset: 0x3AAC, size: 0x8, addend: 0x0, symName: __ZNSt3__19use_facetB8ne180100INS_5ctypeIcEEEERKT_RKNS_6localeE, symObjAddr: 0x2E0, symBinAddr: 0x100003E2C, symSize: 0x2C }
+  - { offset: 0x4D65, size: 0x8, addend: 0x0, symName: __Z3bstii, symObjAddr: 0x0, symBinAddr: 0x100003B4C, symSize: 0xF8 }
+  - { offset: 0x4E95, size: 0x8, addend: 0x0, symName: __ZNSt3__113basic_ostreamIcNS_11char_traitsIcEEElsB8ne180100EPFRS3_S4_E, symObjAddr: 0xF8, symBinAddr: 0x100003C44, symSize: 0x2C }
+  - { offset: 0x4EC7, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x17C, symBinAddr: 0x100003CC8, symSize: 0x8C }
+  - { offset: 0x4EFD, size: 0x8, addend: 0x0, symName: __ZNKSt3__19basic_iosIcNS_11char_traitsIcEEEcvPvB8ne180100Ev, symObjAddr: 0x208, symBinAddr: 0x100003D54, symSize: 0x4C }
+  - { offset: 0x4F21, size: 0x8, addend: 0x0, symName: __ZNKSt3__19basic_iosIcNS_11char_traitsIcEEE5widenB8ne180100Ec, symObjAddr: 0x254, symBinAddr: 0x100003DA0, symSize: 0x8C }
+  - { offset: 0x4F98, size: 0x8, addend: 0x0, symName: __ZNKSt3__15ctypeIcE5widenB8ne180100Ec, symObjAddr: 0x30C, symBinAddr: 0x100003E58, symSize: 0x38 }
+  - { offset: 0x4FCB, size: 0x8, addend: 0x0, symName: __ZNKSt3__19basic_iosIcNS_11char_traitsIcEEE4failB8ne180100Ev, symObjAddr: 0x354, symBinAddr: 0x100003EA0, symSize: 0x28 }
+  - { offset: 0x4FEF, size: 0x8, addend: 0x0, symName: __ZNKSt3__18ios_base4failB8ne180100Ev, symObjAddr: 0x37C, symBinAddr: 0x100003EC8, symSize: 0x28 }
+...
