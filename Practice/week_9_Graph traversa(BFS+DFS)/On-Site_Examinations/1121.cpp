@@ -1,7 +1,6 @@
 #include <iostream>
 #include <vector>
 #include <algorithm>
-#include <string>
 using namespace std;
 
 int main(){
@@ -13,11 +12,31 @@ int main(){
 			cin>>x;
 			num.push_back(x);
 		}
-		sort(num.begin(),num.end());
-		int sum=0,count;
-		for(int i=num.size()-1; i>=0; i--){
-			
+
+		int sum=num[0];
+		int ans=1e9,a=0,b=0;
+		while(a<n){
+			if(sum<s && sum>=0){
+				a++;
+				if(a<n){
+					sum+=num[a];
+				}
+			}
+			else{
+				if(ans>a-b+1){
+					ans=a-b+1;
+				}
+				sum-=num[b];
+				b++;
+			}
 		}
+		if(ans==1e9){
+			cout<<0<<endl;
+		}
+		else{
+			cout<<ans<<endl;
+		}
+		
 	}
 	
 	return 0;

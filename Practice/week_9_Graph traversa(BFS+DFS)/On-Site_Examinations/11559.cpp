@@ -8,7 +8,7 @@ int main(){
 	int n,b,h,w;
 	while(cin>>n>>b>>h>>w){
 		int maxb=b;
-		bool haha=0;
+		bool havehotel=0;
 		
 		for(int i=0; i<h; i++){
 			int hp;
@@ -20,12 +20,12 @@ int main(){
 				cin>>bednum;
 				if(bednum>=n && price<=maxb){
 					maxb=price;
-					haha=1;
+					havehotel=1;
 				}
 			}
 		}
 		
-		if(haha==0){
+		if(havehotel==0){
 			cout<<"stay home"<<endl;
 		}
 		else{
@@ -43,6 +43,6 @@ w week you can choose
 
 H 
 p price
-w weekbed history
+w week has bed num
 
 */
