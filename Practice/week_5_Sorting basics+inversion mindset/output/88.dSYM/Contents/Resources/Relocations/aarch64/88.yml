@@ -1,8 +1,0 @@
----
-triple:          'arm64-apple-darwin'
-binary-path:     '/Users/linyuxin/11402_CI002/Practice/week_5_Sorting basics+inversion mindset/output/88'
-relocations:
-  - { offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003C18, symSize: 0x328 }
-  - { offset: 0x33, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003C18, symSize: 0x328 }
-  - { offset: 0x153, size: 0x8, addend: 0x0, symName: __ZNSt3__14swapB8ne180100IiEEvRT_S2_, symObjAddr: 0x328, symBinAddr: 0x100003F40, symSize: 0x3C }
-...
