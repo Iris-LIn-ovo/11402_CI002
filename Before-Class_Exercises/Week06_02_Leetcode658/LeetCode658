@@ -1,0 +1,27 @@
+#include <vector>
+#include <cmath>
+#include <algorithm>
+
+using namespace std;
+
+class Solution {
+public:
+    vector<int> findClosestElements(vector<int>& arr, int k, int x) {
+        int left = 0;
+        int right = arr.size() - 1;
+
+        // 縮減範圍直到只剩下 k 個元素
+        while (right - left + 1 > k) {
+            // 比較左右兩端點誰離 x 更遠
+            // 若右邊比較遠，或是距離相等但右邊比較大（右邊更遠），則捨棄右邊
+            if (abs(arr[right] - x) < abs(arr[left] - x)) {
+                left++;
+            } else {
+                right--;
+            }
+        }
+
+        // 回傳剩下的 k 個元素
+        return vector<int>(arr.begin() + left, arr.begin() + right + 1);
+    }
+};

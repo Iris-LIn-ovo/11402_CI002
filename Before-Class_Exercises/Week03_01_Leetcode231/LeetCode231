@@ -1,0 +1,8 @@
+class Solution {
+public:
+    bool isPowerOfTwo(int n) {
+        // n > 0: 確保正整數 (負數與 0 不可能是 2 的冪)
+        // (n & (n - 1)) == 0: 這是位元運算的技巧，用來檢查二進位是否只有一個 1
+        return n > 0 && (n & (n - 1)) == 0;
+    }
+};
