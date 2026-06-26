@@ -1,0 +1,30 @@
+#include <vector>
+#include <algorithm>
+
+using namespace std;
+
+class Solution {
+public:
+    void nextPermutation(vector<int>& nums) {
+        int n = nums.size();
+        int i = n - 2;
+        
+        // 1. 找到第一個左邊小於右邊的點
+        while (i >= 0 && nums[i] >= nums[i + 1]) {
+            i--;
+        }
+        
+        if (i >= 0) {
+            // 2. 找到第一個大於 nums[i] 的元素
+            int j = n - 1;
+            while (nums[j] <= nums[i]) {
+                j--;
+            }
+            // 3. 交換
+            swap(nums[i], nums[j]);
+        }
+        
+        // 4. 反轉右半部分 (如果 i < 0，代表整個反轉)
+        reverse(nums.begin() + i + 1, nums.end());
+    }
+};

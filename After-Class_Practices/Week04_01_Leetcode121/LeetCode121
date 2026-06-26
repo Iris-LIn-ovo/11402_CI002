@@ -1,0 +1,26 @@
+#include <vector>
+#include <algorithm>
+#include <climits>
+
+using namespace std;
+
+class Solution {
+public:
+    int maxProfit(vector<int>& prices) {
+        int minPrice = INT_MAX; // 初始化為極大值
+        int maxProfit = 0;      // 若無獲利則為 0
+        
+        for (int price : prices) {
+            // 更新目前為止遇到的最低價格
+            if (price < minPrice) {
+                minPrice = price;
+            } 
+            // 計算如果今天賣出，利潤是否比之前的高
+            else if (price - minPrice > maxProfit) {
+                maxProfit = price - minPrice;
+            }
+        }
+        
+        return maxProfit;
+    }
+};
